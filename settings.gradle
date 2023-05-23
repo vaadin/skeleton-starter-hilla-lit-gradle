@@ -1,0 +1,9 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://maven.vaadin.com/vaadin-prereleases' }
+    }
+    dependencies {
+        classpath "dev.hilla:hilla-gradle-plugin:$hillaVersion"
+    }
+}
