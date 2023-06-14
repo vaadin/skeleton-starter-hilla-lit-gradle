@@ -13,7 +13,7 @@ Then you can run the main method of `Application.java`.
 
 ## Deploying to Production
 
-To create a production build, call `gradlew -Pvaadin.productionMode=true build` (Windows), or `./gradlew -Pvaadin.productionMode=true build` (Mac & Linux).
+To create a production build, call `gradlew -Philla.productionMode=true build` (Windows), or `./gradlew -Philla.productionMode=true build` (Mac & Linux).
 This will build a JAR file with all the dependencies and front-end resources, ready to be deployed.
 The file can be found in the `build/libs/` folder after the build completes.
 
