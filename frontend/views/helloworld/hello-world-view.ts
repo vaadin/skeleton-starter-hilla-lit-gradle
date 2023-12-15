@@ -2,7 +2,7 @@ import '@vaadin/button';
 import '@vaadin/notification';
 import { Notification } from '@vaadin/notification';
 import '@vaadin/text-field';
-import * as HelloWorldEndpoint from 'Frontend/generated/HelloWorldEndpoint.js';
+import { HelloWorldEndpoint } from 'Frontend/generated/endpoints';
 import { html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { View } from '../../views/view.js';
