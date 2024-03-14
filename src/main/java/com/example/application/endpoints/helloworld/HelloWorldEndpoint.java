@@ -1,8 +1,8 @@
 package com.example.application.endpoints.helloworld;
 
 import com.vaadin.flow.server.auth.AnonymousAllowed;
-import dev.hilla.Endpoint;
-import dev.hilla.Nonnull;
+import com.vaadin.hilla.Endpoint;
+import com.vaadin.hilla.Nonnull;
 
 @Endpoint
 @AnonymousAllowed
