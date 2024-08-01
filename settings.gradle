@@ -4,6 +4,6 @@ pluginManagement {
       gradlePluginPortal()
   }
   plugins {
-    id 'dev.hilla' version "${hillaVersion}"
+    id 'com.vaadin' version "${vaadinVersion}"
   }
 }
